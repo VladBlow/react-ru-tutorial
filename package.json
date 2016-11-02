@@ -2,9 +2,9 @@
   "name": "react-ru-tutorial",
   "version": "1.0.0",
   "description": "first react app",
-  "main": "package.json",
+  "main": "index.js",
   "scripts": {
-    "test": "npm start"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/VladBlow/react-ru-tutorial/issues"
   },
-  "homepage": "https://github.com/VladBlow/react-ru-tutorial#readme"
+  "homepage": "https://github.com/VladBlow/react-ru-tutorial#readme",
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
 }
